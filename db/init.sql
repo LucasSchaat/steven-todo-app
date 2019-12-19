@@ -1,4 +1,4 @@
 CREATE TABLE list(
-    id SERIAL PRIMARY KEY,
+    itemid SERIAL PRIMARY KEY,
     item VARCHAR(300)
 )

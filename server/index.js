@@ -27,6 +27,6 @@ massive(CONNECTION_STRING).then(db => {
 // ENDPOINTS
 app.get('/api/list', ctrl.getList)
 app.post('/api/list', ctrl.addToDo)
-app.put('/api/list/:id', ctrl.editToDo)
+app.put('/api/list/:itemid', ctrl.editToDo)
 app.delete('/api/list/:id', ctrl.deleteToDo)
 

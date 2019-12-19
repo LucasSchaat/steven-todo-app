@@ -1,7 +1,7 @@
 INSERT INTO list (item)
-VALUES $1;
+VALUES ($1);
 
 SELECT *
 FROM list
-ORDER BY ASC;
+ORDER BY itemid ASC;
 
